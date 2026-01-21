@@ -10,9 +10,5 @@ resource "aws_instance" "TERRAFORM_HCP" {
     Name = "TERRA_HCP"
   }
 }
-resource "aws_s3_bucket" "two" {
-  bucket     = "kat-terra"
-  
-}
 
 
